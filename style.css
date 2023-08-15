@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* header */
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.title{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.title, a, h1{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.body-one{
+    background-color: #1F2937;
+    display: flex;
+}
+h1{
+    font-size: 48px;
+    font-weight:  bolder;;
+    color: #f9faf8;
+}
+.paragraph{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882F6;
+}
+.main-img{
+   width: 30vw;
+   height: 50vh;
+   padding-right: 305px;
+   margin: 50px;
+   
+}
+.hero{
+    margin: 100px;
+    padding-left: 70px;
+}
+.hero{
+   align-self: center;
+}
+button{
+    border-radius: 5px;
+    font-size: 17px;
+    color: #f9faf8;
+    border: none;
+    width: 6vw;
+    height: 5vh;
+}
+
+/* section */
+section{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+}
+h2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.subtext{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.image{
+    border:3px solid #3882F6;
+    border-radius: 8px;
+    margin: 0;
+    width: 100%;
+    height: 30vh;
+}
+.text{
+
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+.label{
+    margin: 5px;
+}
+.text{
+    width: 30vh;
+}
+/* quotation */
+.quote-main{
+    background-color: #e5e7eb;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.quotation{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin: 70px;
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.quoted-by{
+    font-size: 30px;
+    text-align: right;
+    font-weight: 800;
+    padding-right: 350px;
+}
+/* lower-section */
+.lower-section{
+    background-color: #3882F6;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.sign{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    color:#f9faf8;
+    line-height:  0.1;
+}
+.create{
+    border: 2px solid #f9faf8;
+    border-radius: 4px;
+    color: #f9faf8;
+}
+footer{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    color:#f9faf8;
+    display: flex;
+    align-self: center;
+    
+}
