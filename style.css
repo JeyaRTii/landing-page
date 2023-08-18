@@ -11,12 +11,19 @@ header{
     justify-content: space-around;
     padding-top: 10px;
 }
+.name{
+color: #d0d31a;
+}
 .title{
     font-size: 24px;
-    color: #f9faf8;
+    color: #d0d31a;
+    font-weight: 800;
 }
 .title, a, h1{
     text-decoration: none;
+    color: #d0d31a;
+}
+a{
     color: #fff;
 }
 nav{
